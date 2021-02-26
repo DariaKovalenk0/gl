@@ -36,6 +36,7 @@ def del_third_element(list):
     list.remove(list[-4])
     return list
 
+
 def swap_elements(list):
     list[1], list[2] = list[2], list[1]
     return list
@@ -126,10 +127,10 @@ class TestListMethods(unittest.TestCase):
         list = [1, 2, 3, 4, 5]
         self.assertEqual(list[0], 1)
 
-
     def test_Daria_Kovalenko_FI93(self):
         list = [2, 4, 6, 8, 10, 12, 14]
         self.assertEqual(swap_elements(list), [2, 6, 4, 8, 10, 12, 14])
 
+        
 if __name__ == '__main__':
     unittest.main()
