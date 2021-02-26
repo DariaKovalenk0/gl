@@ -36,6 +36,10 @@ def del_third_element(list):
     list.remove(list[-4])
     return list
 
+def swap_elements(list):
+    list[1], list[2] = list[2], list[1]
+    return list
+
 
 class TestListMethods(unittest.TestCase):
     def test_liubov_peleshenko_fi_94(self):
