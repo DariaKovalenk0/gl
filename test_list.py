@@ -129,7 +129,7 @@ class TestListMethods(unittest.TestCase):
 
     def test_Daria_Kovalenko_FI93(self):
         list = [2, 4, 6, 8, 10, 12, 14]
-        self.assertEqual(swap_elements(list), [2, 6, 4, 8, 10, 12, 14]
+        self.assertEqual(swap_elements(list), [2, 6, 4, 8, 10, 12, 14])
                          
 
 if __name__ == '__main__':
